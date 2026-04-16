@@ -1,0 +1,101 @@
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(159, 239, 145);
+  padding: 10px 20px;
+  position: relative;
+  top: 0;
+}
+
+/* LOGO */
+.logo-left img {
+  width: 150px;
+}
+
+/* NAV */
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  font-family: caprasimo;
+}
+
+/* LINKS */
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* ACTIVE */
+.active {
+  color: orange;
+}
+
+/* HOVER */
+.nav a:hover {
+  color: orange;
+}
+
+/* BUTTON */
+.nav button {
+  background: orange;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.hero {
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  padding: 40;
+  display: flex;
+  background-color: #d8e2a8;
+  color: #1d3d19;
+  font-size: 44px;
+}
+.hero img {
+  width: 500px;
+
+  border-radius: 90px;
+}
+
+.hero-text {
+  max-width: 1200px;
+}
+.hero-left h2 {
+  font-family: Caprasimo;
+  padding: 6px 40px;
+  font-family: caprasimo;
+}
+.hero-left p {
+  font-family: Abhaya Libre Medium;
+  color: rgb(32, 30, 30);
+  font-size: 30px;
+}
+
+.fermes {
+  background-color: #87b581;
+}
+.fermes img {
+  width: 500px;
+
+  border-radius: 90px;
+}
+.fermes h2 {
+  color: #462900;
+  font-size: 50px;
+  font-family: Caprasimo;
+
+  text-align: center;
+}
+.fermes right p {
+  font-family: Borel;
+  color: rgb(32, 30, 30);
+  font-size: 30px;
+}
